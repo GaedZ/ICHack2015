@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56F0A1DD1A856AC600549D6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F0A1DC1A856AC600549D6F /* main.m */; };
+		56F0A1E01A856AC600549D6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F0A1DF1A856AC600549D6F /* AppDelegate.m */; };
+		56F0A1E31A856AC600549D6F /* IC_HACK_15.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 56F0A1E11A856AC600549D6F /* IC_HACK_15.xcdatamodeld */; };
+		56F0A1E61A856AC600549D6F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F0A1E51A856AC600549D6F /* MasterViewController.m */; };
+		56F0A1E91A856AC600549D6F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F0A1E81A856AC600549D6F /* DetailViewController.m */; };
+		56F0A1EC1A856AC600549D6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56F0A1EA1A856AC600549D6F /* Main.storyboard */; };
+		56F0A1EE1A856AC600549D6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F0A1ED1A856AC600549D6F /* Images.xcassets */; };
+		56F0A1F11A856AC600549D6F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56F0A1EF1A856AC600549D6F /* LaunchScreen.xib */; };
+		56F0A1FD1A856AC600549D6F /* IC_HACK_15Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F0A1FC1A856AC600549D6F /* IC_HACK_15Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56F0A1F71A856AC600549D6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56F0A1CF1A856AC500549D6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56F0A1D61A856AC600549D6F;
+			remoteInfo = "IC HACK 15";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56F0A1D71A856AC600549D6F /* IC HACK 15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IC HACK 15.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F0A1DB1A856AC600549D6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56F0A1DC1A856AC600549D6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56F0A1DE1A856AC600549D6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		56F0A1DF1A856AC600549D6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56F0A1E21A856AC600549D6F /* IC_HACK_15.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IC_HACK_15.xcdatamodel; sourceTree = "<group>"; };
+		56F0A1E41A856AC600549D6F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		56F0A1E51A856AC600549D6F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		56F0A1E71A856AC600549D6F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		56F0A1E81A856AC600549D6F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		56F0A1EB1A856AC600549D6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56F0A1ED1A856AC600549D6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		56F0A1F01A856AC600549D6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		56F0A1F61A856AC600549D6F /* IC HACK 15Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IC HACK 15Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F0A1FB1A856AC600549D6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56F0A1FC1A856AC600549D6F /* IC_HACK_15Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IC_HACK_15Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56F0A1D41A856AC600549D6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F0A1F31A856AC600549D6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56F0A1CE1A856AC500549D6F = {
+			isa = PBXGroup;
+			children = (
+				56F0A1D91A856AC600549D6F /* IC HACK 15 */,
+				56F0A1F91A856AC600549D6F /* IC HACK 15Tests */,
+				56F0A1D81A856AC600549D6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56F0A1D81A856AC600549D6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56F0A1D71A856AC600549D6F /* IC HACK 15.app */,
+				56F0A1F61A856AC600549D6F /* IC HACK 15Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56F0A1D91A856AC600549D6F /* IC HACK 15 */ = {
+			isa = PBXGroup;
+			children = (
+				56F0A1DE1A856AC600549D6F /* AppDelegate.h */,
+				56F0A1DF1A856AC600549D6F /* AppDelegate.m */,
+				56F0A1E41A856AC600549D6F /* MasterViewController.h */,
+				56F0A1E51A856AC600549D6F /* MasterViewController.m */,
+				56F0A1E71A856AC600549D6F /* DetailViewController.h */,
+				56F0A1E81A856AC600549D6F /* DetailViewController.m */,
+				56F0A1EA1A856AC600549D6F /* Main.storyboard */,
+				56F0A1ED1A856AC600549D6F /* Images.xcassets */,
+				56F0A1EF1A856AC600549D6F /* LaunchScreen.xib */,
+				56F0A1E11A856AC600549D6F /* IC_HACK_15.xcdatamodeld */,
+				56F0A1DA1A856AC600549D6F /* Supporting Files */,
+			);
+			path = "IC HACK 15";
+			sourceTree = "<group>";
+		};
+		56F0A1DA1A856AC600549D6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56F0A1DB1A856AC600549D6F /* Info.plist */,
+				56F0A1DC1A856AC600549D6F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56F0A1F91A856AC600549D6F /* IC HACK 15Tests */ = {
+			isa = PBXGroup;
+			children = (
+				56F0A1FC1A856AC600549D6F /* IC_HACK_15Tests.m */,
+				56F0A1FA1A856AC600549D6F /* Supporting Files */,
+			);
+			path = "IC HACK 15Tests";
+			sourceTree = "<group>";
+		};
+		56F0A1FA1A856AC600549D6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56F0A1FB1A856AC600549D6F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56F0A1D61A856AC600549D6F /* IC HACK 15 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56F0A2001A856AC600549D6F /* Build configuration list for PBXNativeTarget "IC HACK 15" */;
+			buildPhases = (
+				56F0A1D31A856AC600549D6F /* Sources */,
+				56F0A1D41A856AC600549D6F /* Frameworks */,
+				56F0A1D51A856AC600549D6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IC HACK 15";
+			productName = "IC HACK 15";
+			productReference = 56F0A1D71A856AC600549D6F /* IC HACK 15.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56F0A1F51A856AC600549D6F /* IC HACK 15Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56F0A2031A856AC600549D6F /* Build configuration list for PBXNativeTarget "IC HACK 15Tests" */;
+			buildPhases = (
+				56F0A1F21A856AC600549D6F /* Sources */,
+				56F0A1F31A856AC600549D6F /* Frameworks */,
+				56F0A1F41A856AC600549D6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56F0A1F81A856AC600549D6F /* PBXTargetDependency */,
+			);
+			name = "IC HACK 15Tests";
+			productName = "IC HACK 15Tests";
+			productReference = 56F0A1F61A856AC600549D6F /* IC HACK 15Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56F0A1CF1A856AC500549D6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Georg Zänker";
+				TargetAttributes = {
+					56F0A1D61A856AC600549D6F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					56F0A1F51A856AC600549D6F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 56F0A1D61A856AC600549D6F;
+					};
+				};
+			};
+			buildConfigurationList = 56F0A1D21A856AC500549D6F /* Build configuration list for PBXProject "IC HACK 15" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56F0A1CE1A856AC500549D6F;
+			productRefGroup = 56F0A1D81A856AC600549D6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56F0A1D61A856AC600549D6F /* IC HACK 15 */,
+				56F0A1F51A856AC600549D6F /* IC HACK 15Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56F0A1D51A856AC600549D6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F0A1EC1A856AC600549D6F /* Main.storyboard in Resources */,
+				56F0A1F11A856AC600549D6F /* LaunchScreen.xib in Resources */,
+				56F0A1EE1A856AC600549D6F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F0A1F41A856AC600549D6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56F0A1D31A856AC600549D6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F0A1E91A856AC600549D6F /* DetailViewController.m in Sources */,
+				56F0A1E61A856AC600549D6F /* MasterViewController.m in Sources */,
+				56F0A1E01A856AC600549D6F /* AppDelegate.m in Sources */,
+				56F0A1DD1A856AC600549D6F /* main.m in Sources */,
+				56F0A1E31A856AC600549D6F /* IC_HACK_15.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F0A1F21A856AC600549D6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F0A1FD1A856AC600549D6F /* IC_HACK_15Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56F0A1F81A856AC600549D6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56F0A1D61A856AC600549D6F /* IC HACK 15 */;
+			targetProxy = 56F0A1F71A856AC600549D6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56F0A1EA1A856AC600549D6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56F0A1EB1A856AC600549D6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56F0A1EF1A856AC600549D6F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56F0A1F01A856AC600549D6F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56F0A1FE1A856AC600549D6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56F0A1FF1A856AC600549D6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56F0A2011A856AC600549D6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IC HACK 15/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		56F0A2021A856AC600549D6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IC HACK 15/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		56F0A2041A856AC600549D6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IC HACK 15Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IC HACK 15.app/IC HACK 15";
+			};
+			name = Debug;
+		};
+		56F0A2051A856AC600549D6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IC HACK 15Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IC HACK 15.app/IC HACK 15";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56F0A1D21A856AC500549D6F /* Build configuration list for PBXProject "IC HACK 15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F0A1FE1A856AC600549D6F /* Debug */,
+				56F0A1FF1A856AC600549D6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56F0A2001A856AC600549D6F /* Build configuration list for PBXNativeTarget "IC HACK 15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F0A2011A856AC600549D6F /* Debug */,
+				56F0A2021A856AC600549D6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		56F0A2031A856AC600549D6F /* Build configuration list for PBXNativeTarget "IC HACK 15Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F0A2041A856AC600549D6F /* Debug */,
+				56F0A2051A856AC600549D6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		56F0A1E11A856AC600549D6F /* IC_HACK_15.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				56F0A1E21A856AC600549D6F /* IC_HACK_15.xcdatamodel */,
+			);
+			currentVersion = 56F0A1E21A856AC600549D6F /* IC_HACK_15.xcdatamodel */;
+			path = IC_HACK_15.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 56F0A1CF1A856AC500549D6F /* Project object */;
+}
